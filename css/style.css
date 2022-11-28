@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(225deg, 100%, 94%);
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-size: cover;
+  /*   background-position: top;
+   */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 1rem;
+  background-color: white;
+  overflow: hidden;
+}
+.card--image {
+  display: block;
+}
+.card--body {
+  padding: 0rem 1.5rem;
+}
+.card--tittle {
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 2rem;
+}
+.card--text {
+  padding: 1rem 0rem 1.5rem 0rem;
+}
+.card--text p {
+  text-align: center;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.card--plan {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: hsl(225deg, 100%, 98%);
+}
+.card--plan-price {
+  padding-right: 2.5rem;
+  padding-left: 1rem;
+}
+.card--plan-change:hover {
+  text-decoration: none;
+  color: hsl(224deg, 23%, 55%);
+}
+.card--button {
+  padding: 1.5rem 0 1.5rem 0;
+  text-align: center;
+}
+.card--button button {
+  width: 100%;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0px 8px 25px hsl(225deg, 42%, 77%);
+}
+.card--button button:hover {
+  background-color: hsla(245deg, 75%, 52%, 0.582);
+}
+.card h6 {
+  padding-bottom: 2rem;
+  text-align: center;
+  color: hsl(224deg, 23%, 55%);
+  font-size: 0.9rem;
+}
+.card h6:hover {
+  color: black;
+  font-weight: 900;
+}
+
+#price {
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
